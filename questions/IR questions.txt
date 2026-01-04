@@ -1,0 +1,68 @@
+che cos'è una translation table?
+cosa fa la regex?
+cosa fa contractions?
+perché la seconda preprocess va più veloce
+come è salvato il dataset
+cosa ritorna la funzione di preprocessing
+struttura lexicon, doc_index, inv_d, inv_f
+cos'è un counter in python
+cosa contiene stats e a che serve
+cosa cambia nel preprocess in chunk
+cosa fa assert nel preprocess
+perché arrivare al chunk leggendo tutte le linee precedenti?
+quanto ci mette il preprocessing? perché così tanto?
+differenza index builder batch vs normale
+perché utilizziamo np.array e non python list quando le carichiamo?
+perché in disk compression usiamo liste e non np.array?
+perché fare prima delta encoding per inv_d
+come funziona VB
+come funziona gamma encoding (stringhe e non byte)
+funziona meglio VB o gamma encoding
+perché gamma non fatta con inv_f ?
+
+cosa fa next in postingListIterator? quando viene usato target?
+cosa succede se faccio query con termini non nel lexicon? cosa garantisce corretto funzionamento?
+perchè sorting posting list in AND retrival
+che cos'è lo scorer? perchè fatto così?
+cosa ritorna searchsorted?
+heapq come è strutturata la lista? cosa c'è nella root? costo computazionale?
+cos'è un default dict?
+perchè .get_postings prende anche i tokens as input?
+perchè taat ci mette meno? (cache, scale piccole)
+relevance judgement è binario o no? in che formato?
+quante sono le query? in che formato
+come si splittano i dataset? come si splitta il 2019? 
+perchè si dividono in due set i topic ID?
+cos'è TREC? e IR_MEASURES?
+perchè doc_index[docid - 1][0] ? e perchè  for rank, (score, docid) in enumerate(results, start=1):?
+
+perchè ci salviamo la direzione del test? (perchè p-value non tiene conto della direzione)
+che correzione si fa per BM25 tuning? come mai?
+cosa viene fuori dal gridsearch per BM25?
+come funzionano le 3 correzioni?
+che metriche di evaluation usiamo? che significa @10 ?
+perchè non ha senso usare MAP?
+perchè AP è più basso dell'nDCG nel test? [perchè i primi 10 sono tutti rilevanti]
+difference between number of postings and number of terms
+
+BM25 precomputati, cosa facciamo per mantenere le cifre decimali visto che salvati su interi?
+quali sono i quattro cambiamenti che avete fatto?
+così facendo [salvare in liste python] c'è un tradeoff tra spazio occupato e tempo di esecuzione
+che avete cambiato nell'inverted index?
+why the t-test returns nan?
+perchè TAAT ora è più lento di DAAT?
+a cosa converge BM25 con tf->+inf
+cosa cambia con VB? state facendo il confronto con che run BM25 (precomputed or not?)
+perchè avete fatto solo VB encoding? (and not gamma)
+che concludete con la compressione di VB?
+come funziona PForDelta, e come si confronta con VB lo spazio?
+come mai avete dovuto cambiare da np.array a python list con PForDelta?
+
+che è cython?
+differenze DAAT e quella standard? perchè gli array sono passati in questo modo?
+come mai è così tanto meglio?
+MRR perchè si fa Wilcoxon?
+
+
+
+

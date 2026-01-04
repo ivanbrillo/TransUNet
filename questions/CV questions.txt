@@ -1,0 +1,25 @@
+perché + o | nel resnet?
+dove fate dropout?
+perché in resnet non si fa dropout? 
+CHe ottimizzatore usate? perché?
+a che serve mmap_mode='r'
+perché facciamo remapping delle labels (0-5)?
+perché fai transform sia su background che sulla maschera?
+che differenza c'è tra le due trasformazioni? (training and val)
+perché in val/test non si flippa o rotate? (perché vogliamo testarlo su immagini di come ci appare normalmente e perché così è riproducibile per altri)
+perché facciamo data augmentation?
+perché in label facciamo INTER_NEAREST e non linear?
+perché alla fine fate toTensor? a che serve? (swap dimensions)
+
+cosa fa worker_init_fn e a cosa serve?
+cosa fa num_workers? a che serve?
+come avete gestito l'imbalance delle differenti classi?
+perchè bias in alcuni casi non serve?
+a che serve inplace=True nella relu?
+a cosa serve BN? (velocizzare convergenza, stabilizzare distribuzioni e exploding gradients)
+quando downsample in resnet block è necessario?
+
+cosa fa convTranspose? perhè avete usato 2x2 con stride 2?
+quando viene chiamato con upsample=false
+cosa fa il bottleneck? perchè c'è un *2 sui canali?
+come vengono creati i token?
