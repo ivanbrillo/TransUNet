@@ -1,6 +1,6 @@
 # PanNuke Nuclei Segmentation: ResNetUNet vs TransUNet
 
-A comprehensive comparison of ResNetUNet and TransUNet architectures for multi-class nuclei segmentation on the PanNuke dataset, featuring rigorous statistical analysis and visualization.
+Implementation of the TransUNet architecture for multi-class nuclei segmentation on the PanNuke dataset, featuring a comprehensive comparison with ResNetUNet through rigorous statistical analysis and visualization.
 
 ## 📋 Table of Contents
 - [Overview](#overview)
