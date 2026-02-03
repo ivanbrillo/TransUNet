@@ -2,15 +2,6 @@
 
 Implementation of the TransUNet architecture for multi-class nuclei segmentation on the PanNuke dataset, featuring a comprehensive comparison with ResNetUNet through rigorous statistical analysis and visualization.
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Models](#models)
-- [Results](#results)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Configuration](#configuration)
 
 ## 🎯 Overview
 
